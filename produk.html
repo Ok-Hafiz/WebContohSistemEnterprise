@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Katalog contoh produk Rumah Adat Minang.">
+	<title>Produk | Rumah Adat Minang</title>
+	<link rel="stylesheet" href="assets/style.css">
+	<script src="assets/script.js" defer></script>
+</head>
+
+<body>
+	<div class="topbar">
+		<div class="container topbar-inner">
+			<span>Rasa tradisi, teman perjalanan.</span>
+			<span>Medan, Sumatera Utara</span>
+		</div>
+	</div>
+
+	<header class="site-header">
+		<div class="container nav-wrap">
+			<a class="brand" href="index.html">
+				<span class="brand-mark">RAM</span><span><strong>Rumah Adat Minang</strong><small>Pusat Oleh-Oleh Keripik</small></span>
+			</a>
+			<button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+			<nav class="nav-links" aria-label="Navigasi utama">
+				<a href="index.html">Beranda</a>
+				<a class="active" href="produk.html">Produk</a>
+				<a href="lokasi.html">Lokasi & Kontak</a>
+				<a href="tentang.html">Tentang Kami</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="page-hero">
+			<div class="container">
+				<span class="eyebrow">Pilihan camilan</span>
+				<h1>Jelajahi katalog <em>produk</em></h1>
+				<p>Temukan beragam pilihan keripik dan oleh-oleh untuk menemani setiap momen istimewa.</p>
+				<div class="breadcrumb">
+					<a href="index.html">Beranda</a><span>/</span><span>Produk</span>
+				</div>
+			</div>
+		</section>
+
+		<section class="section container">
+			<div class="catalog-tools">
+				<div>
+					<h2>Produk pilihan</h2>
+					<p class="muted">Beragam pilihan camilan lezat untuk dinikmati bersama keluarga.</p>
+				</div>
+				<label class="search-box">
+					<span>⌕</span><input id="product-search" type="search" placeholder="Cari produk contoh..." aria-label="Cari produk">
+				</label>
+			</div>
+			<div class="product-grid" id="product-grid">
+				<article class="product-card" data-name="keripik singkong">
+					<div class="product-visual visual-cassava">
+						<span class="product-tag">CONTOH</span>
+						<span class="product-emoji">◒</span>
+						<span class="visual-caption">KERIPIK SINGKONG</span>
+					</div>
+					<div class="product-info">
+						<span class="product-category">Camilan renyah</span>
+						<h3>Keripik Singkong</h3>
+						<p>Deskripsi contoh. Ganti dengan varian, rasa, dan ukuran yang tersedia di toko.</p>
+						<div class="product-bottom">
+							<strong>Harga belum tersedia</strong>
+							<a href="lokasi.html" class="text-link">Tanya toko ↗</a>
+						</div>
+					</div>
+				</article>
+
+				<article class="product-card" data-name="keripik pisang">
+					<div class="product-visual visual-banana">
+						<span class="product-tag">CONTOH</span>
+						<span class="product-emoji">❋</span>
+						<span class="visual-caption">KERIPIK PISANG</span>
+					</div>
+					<div class="product-info">
+						<span class="product-category">Camilan manis</span>
+						<h3>Keripik Pisang</h3>
+						<p>Deskripsi contoh. Pastikan jenis produk ini benar-benar dijual sebelum dipublikasikan.</p>
+						<div class="product-bottom">
+							<strong>Harga belum tersedia</strong>
+							<a href="lokasi.html" class="text-link">Tanya toko ↗</a>
+						</div>
+					</div>
+				</article>
+
+				<article class="product-card" data-name="keripik tempe">
+					<div class="product-visual visual-tempe">
+						<span class="product-tag">CONTOH</span>
+						<span class="product-emoji">✺</span>
+						<span class="visual-caption">KERIPIK TEMPE</span>
+					</div>
+					<div class="product-info">
+						<span class="product-category">Camilan gurih</span>
+						<h3>Keripik Tempe</h3>
+						<p>Deskripsi contoh. Ganti dengan informasi bahan dan karakter rasa yang telah dikonfirmasi.</p>
+						<div class="product-bottom">
+							<strong>Harga belum tersedia</strong>
+							<a href="lokasi.html" class="text-link">Tanya toko ↗</a>
+						</div>
+					</div>
+				</article>
+
+				<article class="product-card" data-name="keripik balado">
+					<div class="product-visual visual-balado">
+						<span class="product-tag">CONTOH</span>
+						<span class="product-emoji">✹</span>
+						<span class="visual-caption">KERIPIK BALADO</span>
+					</div>
+					<div class="product-info">
+						<span class="product-category">Camilan berbumbu</span>
+						<h3>Keripik Balado</h3>
+						<p>Deskripsi contoh. Tambahkan tingkat pedas, ukuran kemasan, dan harga setelah konfirmasi.</p>
+						<div class="product-bottom">
+							<strong>Harga belum tersedia</strong>
+							<a href="lokasi.html" class="text-link">Tanya toko ↗</a>
+						</div>
+					</div>
+				</article>
+			</div>
+
+			<p id="no-results" class="empty-state" hidden>Produk tidak ditemukan. Coba kata kunci lain.</p>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-main">
+			<a class="brand brand-light" href="index.html">
+				<span class="brand-mark">RAM</span>
+				<span>
+					<strong>Rumah Adat Minang</strong>
+					<small>Pusat Oleh-Oleh Keripik</small>
+				</span>
+			</a>
+			<p>Website profil dan promosi usaha.<br><strong>Proyek mahasiswa Universitas Harapan.</strong></p>
+		</div>
+		<div class="container footer-bottom">
+			<span>© <span data-year></span> Rumah Adat Minang · Konsep website</span>
+			<span>Dibuat untuk mendukung promosi usaha lokal</span>
+		</div>
+	</footer>
+</body>
+</html>
